@@ -1,0 +1,43 @@
+.square {
+    width: 130px;
+    height: 130px;
+    font-size: 90px;
+    justify-content: center;
+    align-items: center;
+    border: solidblack;
+    background-color: aquamarine;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin: 2px;
+  }
+  .square:hover {
+    background-color: darkgrey;
+  }
+  
+  .status {
+    margin: 20px 0;
+    color: rgb(5, 5, 209);
+    font-size: 25px;
+    background-color: rgb(235, 221, 27);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    
+  }
+  .board-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+.game-info{
+    margin-top: 130px;
+    margin-left: 20px;
+}
+
+
+.game-board{
+    height: 150%;
+
+    background-color: rgb(243, 235, 243);
+}
